@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adit Web</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" sizes="16x16" href="favicon.ico">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&family=Raleway:wght@200;300;400;500;600&family=Roboto+Mono:wght@100;200;300;400;500;600;700&family=Roboto+Slab:wght@500;600;700&family=Roboto:wght@500;700;900&family=Secular+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 𝙰𝙳𝙸𝚃 𝙿𝚁𝙾𝙵𝙸𝙻𝙴</h1>
+            <p>Welcome to my personal profile. Thank you for coming here.
+            </p>
+            <a href="" class="hero-btn">Klik disini ya :3</a>
+        </div>
+    </section>
+
+<!------Hobby------->
+<section class="course">
+    <h1>place of birth, education and goals</h1>
+    <p>Introduce my self</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>place of birth</h3>
+            <p>My name is Aditya Trisna Sukmawan, I was born in Bogor on May 1, 2006.</p>
+        </div>
+        <div class="course-col">
+            <h3>education</h3>
+            <p>I studied at sdn telukpiang 02 - smpn 2 ciawi - smk wikrama bogor (now)</p>
+        </div>
+        <div class="course-col">
+            <h3>goals</h3>
+            <p>My dream is to become a programmer precisely is the front end developer.</p>
+        </div>
+    </div>
+
+</section>    
+
+<!-----hobby----->
+<section class="hobby">
+    <h1>hobby</h1>
+    <p>I have a lots of hobbies</p>
+    <div class="row">
+        <div class="hobby-col">
+            <img src="footbal.jpg">       
+            <div class="layer">
+            <h3>FOOTBALL</h3>
+            </div>
+        </div>
+        <div class="hobby-col">
+            <img src="gymol.jpg">       
+            <div class="layer">
+            <h3>WORKOUTS</h3>
+            </div>
+        </div>
+        <div class="hobby-col">
+            <img src="basketball.jpg">       
+            <div class="layer">
+            <h3>BASKETBALL</h3>
+            </div>
+        </div>
+    </div>
+
+</section>
+    
+<!----JavaScript for Toggle Menu-->
+    <script>
+           
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+</html>    
